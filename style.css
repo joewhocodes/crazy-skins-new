@@ -1,9 +1,9 @@
 html {
-    background-image: linear-gradient(to bottom, white, aliceblue);
 }
 
 body {
-    max-height: 100vh;
+    background-image: linear-gradient(to bottom, white, #cae9ff, #b9b6e5);
+
 }
 
 h2 {
@@ -24,23 +24,23 @@ a {
 }
 
 .kids {
-    background-image: url(/images/bg-1.jpg);
+    background-image: url(/images/bg-1.png);
 }
 .what-we-do .weddings {
-    background-image: url(/images/bg-2.jpg);
+    background-image: url(/images/bg-2.png);
     width: 40%;
 }
 
 .what-we-do .baby {
-    background-image: url(/images/bg-3.jpg);
+    background-image: url(/images/bg-3.png);
     padding-top: 17px;
 }
 .what-we-do .festival-fete {
-    background-image: url(/images/bg-4.jpg);
+    background-image: url(/images/bg-4.png);
     width: 37%;
 }
 .what-we-do .festival {
-    background-image: url(/images/bg-5.jpg);
+    background-image: url(/images/bg-5.png);
 }
 
 
