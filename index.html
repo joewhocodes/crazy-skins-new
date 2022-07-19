@@ -6,25 +6,160 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- jQuery -->
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <!-- Boostrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/path/to/font-awesome/all.min.css"/>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
-    <nav class="navbar bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand">Navbar</a>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+    <!-- <header>
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+
+                </a>
+                <p>Facebook</p>
+            </div>
+        </nav>
+    </header> -->
+    <div class="main-section d-flex">
+        <img src="/images/logo.jpg" alt="logo" height="300px" class="mx-auto">
+    </div>
+
+    <div class="what-we-do container text-center">
+        <a href="#">
+            <h2 class="kids  mx-auto">KIDS PARTIES / PRIVATE PARTIES</h2>
+        </a>
+        <a href="#">
+            <h2 class="weddings  mx-auto">WEDDINGS & HEN DO'S</h2>
+        </a>
+        <a href="#">
+            <h2 class="baby  mx-auto">BABY BUMPS / GENDER REVEALS</h2>
+        </a>
+        <a href="#">
+            <h2 class="festival-fete  mx-auto">FESTIVALS & FETES</h2>
+        </a>
+        <a href="#">
+            <h2 class="festival  mx-auto">FESTIVAL STYLE GLITTERS</h2>
+        </a>
+    </div>
+
+
+
+    <div id="featureContainer">
+		<div class="row my-auto justify-content-center">
+			<div id="featureCarousel" class="carousel slide" data-bs-ride="carousel">
+				<div class="float-end pe-md-4">
+					<a class="indicator" href="#featureCarousel" role="button" data-bs-slide="prev">
+						<span class="fas fa-chevron-left" aria-hidden="true"></span>
+					</a> &nbsp;&nbsp;
+					<a class="w-aut indicator" href="#featureCarousel" role="button" data-bs-slide="next">
+						<span class="fas fa-chevron-right" aria-hidden="true"></span>
+					</a>
+				</div>
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<div class="col-md-2">
+							<div class="card">
+								<div class="card-img">
+									<img src="/images/face-painting/1.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-2">
+							<div class="card">
+								<div class="card-img">
+									<img src="/images/face-painting/2.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-2">
+							<div class="card">
+								<div class="card-img">
+									<img src="/images/face-painting/3.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-2">
+							<div class="card">
+								<div class="card-img">
+									<img src="/images/face-painting/4.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-2">
+							<div class="card">
+								<div class="card-img">
+									<img src="/images/face-painting/5.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-2">
+							<div class="card">
+								<div class="card-img">
+									<img src="/images/face-painting/6.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-2">
+							<div class="card">
+								<div class="card-img">
+									<img src="/images/face-painting/7.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-2">
+							<div class="card">
+								<div class="card-img">
+									<img src="/images/face-painting/8.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-2">
+							<div class="card">
+								<div class="card-img">
+									<img src="/images/face-painting/9.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+    
+
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>
+    <script src="main.js"></script>
+
 </body>
 
 </html>

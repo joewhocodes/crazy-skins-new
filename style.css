@@ -1,0 +1,196 @@
+html {
+    background-image: linear-gradient(to bottom, white, aliceblue);
+}
+
+body {
+    max-height: 100vh;
+}
+
+h2 {
+    color:black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.what-we-do h2 {
+    padding-top: 25px;
+    height: 80px;
+    width: 50%;
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.kids {
+    background-image: url(/images/bg-1.jpg);
+}
+.what-we-do .weddings {
+    background-image: url(/images/bg-2.jpg);
+    width: 40%;
+}
+
+.what-we-do .baby {
+    background-image: url(/images/bg-3.jpg);
+    padding-top: 17px;
+}
+.what-we-do .festival-fete {
+    background-image: url(/images/bg-4.jpg);
+    width: 37%;
+}
+.what-we-do .festival {
+    background-image: url(/images/bg-5.jpg);
+}
+
+
+/* .card-img:before {
+    content: "";
+    position: absolute;
+    top: 93%;
+    left: 0;
+    height: 100%;
+    width: 150%;
+    background: black;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-50deg);
+}
+.card-img:after {
+    content: "";
+    position: absolute;
+    top: 93%;
+    left: 0;
+    height: 100%;
+    width: 150%;
+    background: black;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-50deg);
+} */
+
+
+
+/* Carousel Styling */
+
+
+
+/* @media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+ */
+
+.card-img {
+    height: 213px;
+    /* width: 300px; */
+    position: relative;
+    overflow: hidden;
+}
+
+
+@media (max-width: 767px) {
+    #featureContainer .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    #featureContainer .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+#featureContainer .carousel-inner .carousel-item.active,
+#featureContainer .carousel-inner .carousel-item-next,
+#featureContainer .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    #featureContainer .carousel-inner .carousel-item-end.active,
+    #featureContainer .carousel-inner .carousel-item-next {
+        transform: translateX(16.8%);
+    }
+
+    #featureContainer .carousel-inner .carousel-item-start.active,
+    #featureContainer .carousel-inner .carousel-item-prev {
+        transform: translateX(-16.8%);
+    }
+
+    /* #featureContainer .card img {
+        width: 100%;
+        height: 100%;
+    } */
+
+    #featureContainer .carousel-item {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 767px) {
+    #featureContainer .card img {
+        width: 100%;
+        height: 75vh;
+    }
+}
+
+#featureContainer .carousel-inner .carousel-item-end,
+#featureContainer .carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+#featureContainer .card {
+    border: 0;
+}
+
+#featureContainer .card {
+    position: relative;
+}
+
+#featureContainer .card .card-img-overlays {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    color: #fff;
+    font-weight: bolder;
+}
+
+#featureContainer a {
+    text-decoration: none;
+}
+
+#featureContainer .indicator {
+    border: 1px solid rgb(202, 202, 202);
+    padding: 3px 6px 3px 6px;
+}
+
+#featureContainer .indicator:hover {
+    background-color: blue;
+    border: 1px solid blue;
+    transition: 200ms;
+}
+
+#featureContainer .indicator:hover {
+    color: white;
+    transition: 200ms;
+}
+
+#featureContainer .indicator {
+    color: lightgray;
+}
+
+#featureContainer .float-end {
+    padding-top: 10px;
+}
