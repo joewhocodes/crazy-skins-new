@@ -22,7 +22,7 @@ a {
 
 
 .my-icons a:hover {
-    filter: brightness(120%);
+    filter: brightness(150%);
     cursor: pointer;
 }
 
