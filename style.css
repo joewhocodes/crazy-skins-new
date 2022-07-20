@@ -2,8 +2,9 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to bottom, white, #cae9ff, #b9b6e5);
-
+    background-image: linear-gradient(to bottom, #a6ddff, #b9b6e5);
+    width: 100%;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -12,8 +13,25 @@ h2 {
 
 a {
     text-decoration: none;
+    
 }
 
+
+/* NAV SECTION */
+
+
+
+.my-icons a:hover {
+    filter: brightness(120%);
+    cursor: pointer;
+}
+
+.my-icons a {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+/* WHAT WE DO SECTION */
 .what-we-do h2 {
     padding-top: 25px;
     height: 80px;
@@ -26,21 +44,43 @@ a {
 .kids {
     background-image: url(/images/bg-1.png);
 }
+
+.kids:hover {
+    background-image: url(/images/bg-1b.png);
+}
+
 .what-we-do .weddings {
     background-image: url(/images/bg-2.png);
     width: 40%;
+}
+.what-we-do .weddings:hover {
+    background-image: url(/images/bg-2b.png);
 }
 
 .what-we-do .baby {
     background-image: url(/images/bg-3.png);
     padding-top: 17px;
 }
+
+.what-we-do .baby:hover {
+    background-image: url(/images/bg-3b.png);
+}
+
 .what-we-do .festival-fete {
     background-image: url(/images/bg-4.png);
     width: 37%;
 }
+
+.what-we-do .festival-fete:hover {
+    background-image: url(/images/bg-4b.png);
+}
+
 .what-we-do .festival {
     background-image: url(/images/bg-5.png);
+}
+
+.what-we-do .festival:hover {
+    background-image: url(/images/bg-5b.png);
 }
 
 
@@ -172,14 +212,19 @@ a {
 }
 
 #featureContainer .indicator {
+    background: #bc7fdd;
     border: 1px solid rgb(202, 202, 202);
     padding: 3px 6px 3px 6px;
 }
 
 #featureContainer .indicator:hover {
-    background-color: blue;
-    border: 1px solid blue;
+    background-color: #cdaede;
+    border: 1px solid #ffffff;
     transition: 200ms;
+}
+
+.fa-chevron-right {
+    padding: 0px 1.8px;
 }
 
 #featureContainer .indicator:hover {
@@ -193,4 +238,61 @@ a {
 
 #featureContainer .float-end {
     padding-top: 10px;
+}
+
+
+
+/* Stars */
+
+i {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.8);
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    transform: rotate(15deg);
+    animation: shine;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+i:after,
+i:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to left, transparent, white, transparent);
+    left: -34px;
+    top: calc(50% - 1px);
+    width: 80px;
+    height: 2px;
+}
+
+i:before {
+    width: 2px;
+    height: 80px;
+    left: calc(50% - 1px);
+    top: -34px;
+    background-image: linear-gradient(to bottom, transparent, white, transparent);
+}
+
+@keyframes shine {
+    0% {
+        transform: scale(0.1) rotate(-200deg);
+    }
+
+    55% {
+        transform: scale(1.2) rotate(180deg);
+    }
+
+    100% {
+        transform: scale(0.1) rotate(-200deg);
+    }
+}
+
+
+i .fa-brands, i .fa-solid {
+    
 }
