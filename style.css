@@ -1,4 +1,7 @@
-html {
+@font-face {
+    font-family: "Nova Regular";
+    src: url(/fonts/FontsFree-Net-NOVABOLD.ttf);
+    src: url(/fonts/FontsFree-Net-NOVABOLD.ttf) format('truetype');
 }
 
 body {
@@ -9,6 +12,8 @@ body {
 
 h2 {
     color:black;
+    font-family: "Nova Regular";
+    font-size: 3rem;
 }
 
 a {
@@ -21,19 +26,18 @@ a {
 
 
 
-.my-icons a:hover {
+.my-icons img:hover, .what-we-do img:hover {
     filter: brightness(150%);
-    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .my-icons a {
     padding-right: 10px;
-    cursor: pointer;
 }
 
 /* WHAT WE DO SECTION */
 .what-we-do h2 {
-    padding-top: 25px;
+    padding-top: 12px;
     height: 80px;
     width: 50%;
     background-size: cover;
@@ -59,7 +63,7 @@ a {
 
 .what-we-do .baby {
     background-image: url(/images/bg-3.png);
-    padding-top: 17px;
+    padding-top: 6px;
 }
 
 .what-we-do .baby:hover {
@@ -82,6 +86,7 @@ a {
 .what-we-do .festival:hover {
     background-image: url(/images/bg-5b.png);
 }
+
 
 
 /* .card-img:before {
@@ -292,7 +297,14 @@ i:before {
     }
 }
 
+#featureContainer {
+    margin-top: -20px;
+}
 
-i .fa-brands, i .fa-solid {
-    
+nav img {
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
 }
