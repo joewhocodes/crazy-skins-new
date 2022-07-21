@@ -51,6 +51,10 @@ a {
 
 .kids:hover {
     background-image: url(/images/bg-1b.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .what-we-do .weddings {
@@ -59,6 +63,10 @@ a {
 }
 .what-we-do .weddings:hover {
     background-image: url(/images/bg-2b.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .what-we-do .baby {
@@ -68,6 +76,10 @@ a {
 
 .what-we-do .baby:hover {
     background-image: url(/images/bg-3b.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .what-we-do .festival-fete {
@@ -77,6 +89,10 @@ a {
 
 .what-we-do .festival-fete:hover {
     background-image: url(/images/bg-4b.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .what-we-do .festival {
@@ -85,6 +101,10 @@ a {
 
 .what-we-do .festival:hover {
     background-image: url(/images/bg-5b.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -301,10 +321,3 @@ i:before {
     margin-top: -20px;
 }
 
-nav img {
-    cursor: pointer;
-}
-
-a {
-    cursor: pointer;
-}
