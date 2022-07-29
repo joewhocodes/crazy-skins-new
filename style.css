@@ -4,10 +4,12 @@
     src: url(/fonts/FontsFree-Net-NOVABOLD.ttf) format('truetype');
 }
 
+
 body {
     background-image: linear-gradient(to bottom, #a6ddff, #b9b6e5);
     width: 100%;
     overflow-x: hidden;
+
 }
 
 h2 {
@@ -24,6 +26,10 @@ a {
 
 /* NAV SECTION */
 
+
+.navbar h2:hover, .what-we-do a:hover {
+    color: white;
+}
 
 
 .my-icons img:hover, .what-we-do img:hover {
@@ -43,6 +49,11 @@ a {
     background-size: cover;
     margin-top: 0px;
     margin-bottom: 0px;
+
+}
+
+.what-we-do a {
+    transition-duration: 0s;
 }
 
 .what-we-do .kids {
@@ -171,7 +182,7 @@ a {
  */
 
 .card-img {
-    height: 213px;
+    /* height: 213px; */
     /* width: 300px; */
     position: relative;
     overflow: hidden;
@@ -331,7 +342,7 @@ i:before {
 }
 
 #featureContainer {
-    margin-top: -20px;
+    margin-top: -30px;
 }
 
 
