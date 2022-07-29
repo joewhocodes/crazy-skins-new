@@ -39,18 +39,18 @@ a {
 .what-we-do h2 {
     padding-top: 12px;
     height: 80px;
-    width: 50%;
+    width: 60%;
     background-size: cover;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.kids {
-    background-image: url(/images/bg-1.png);
+.what-we-do .kids {
+    background-image: url(/images/background-tiles/bg-1.png);
 }
 
-.kids:hover {
-    background-image: url(/images/bg-1b.png);
+.what-we-do .kids:hover {
+    background-image: url(/images/background-tiles/bg-1b.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,11 +58,11 @@ a {
 }
 
 .what-we-do .weddings {
-    background-image: url(/images/bg-2.png);
-    width: 40%;
+    background-image: url(/images/background-tiles/bg-2.png);
+    width: 50%;
 }
 .what-we-do .weddings:hover {
-    background-image: url(/images/bg-2b.png);
+    background-image: url(/images/background-tiles/bg-2b.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,12 +70,12 @@ a {
 }
 
 .what-we-do .baby {
-    background-image: url(/images/bg-3.png);
+    background-image: url(/images/background-tiles/bg-3.png);
     padding-top: 6px;
 }
 
 .what-we-do .baby:hover {
-    background-image: url(/images/bg-3b.png);
+    background-image: url(/images/background-tiles/bg-3b.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -83,24 +83,37 @@ a {
 }
 
 .what-we-do .festival-fete {
-    background-image: url(/images/bg-4.png);
-    width: 37%;
+    background-image: url(/images/background-tiles/bg-4.png);
+    width: 40%;
 }
 
 .what-we-do .festival-fete:hover {
-    background-image: url(/images/bg-4b.png);
+    background-image: url(/images/background-tiles/bg-4b.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-.what-we-do .festival {
-    background-image: url(/images/bg-5.png);
+.what-we-do .festival-style {
+    background-image: url(/images/background-tiles/bg-5.png);
 }
 
-.what-we-do .festival:hover {
-    background-image: url(/images/bg-5b.png);
+.what-we-do .festival-style:hover {
+    background-image: url(/images/background-tiles/bg-5b.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.what-we-do .show-all {
+    background-image: url(/images/background-tiles/bg-6.png);
+    width: 50%;
+}
+
+.what-we-do .show-all:hover {
+    background-image: url(/images/background-tiles/bg-6b.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -321,3 +334,13 @@ i:before {
     margin-top: -20px;
 }
 
+
+/* GALLERY PAGE */
+
+.what-we-do .active {
+    color: white;
+}
+
+.what-we-do a {
+    color: black;
+}

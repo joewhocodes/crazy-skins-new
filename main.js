@@ -23,7 +23,6 @@
 
 // Stars
 document.addEventListener("DOMContentLoaded", function() {
-   
   var amount = 30;
   var body = document.querySelector('body');
   var i = 0;
