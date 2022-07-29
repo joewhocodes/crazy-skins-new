@@ -355,3 +355,9 @@ i:before {
 .what-we-do a {
     color: black;
 }
+
+@media screen and (max-width: 600px) {
+    .tm-container-fluid .what-we-do a {
+        font-size: 1.5rem;
+    }
+}
