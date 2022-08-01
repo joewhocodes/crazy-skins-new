@@ -372,13 +372,13 @@ i:before {
 /* FOOTER */
 
 footer {
-    background: white;
+    background: #0000002a;
 }
 
-.joe-who-codes a {
-    color:black;
+.joe-who-codes a, footer p {
+    color:rgb(237, 237, 237);
 }
 
 .joe-who-codes a:hover {
-    color:#a6ddff
+    color:#a6ddff;
 }
