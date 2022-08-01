@@ -365,11 +365,20 @@ i:before {
 
 /* REVIEWS PAGE */
 
-/* .my-reviews .row p {
-    background-color: white;
-    color: black;
+.what-we-do .my-reviews {
+    background-image: url(/images/background-tiles/bg-1.png);
 }
 
-.my-reviews p {
-    color: black;
-} */
+/* FOOTER */
+
+footer {
+    background: white;
+}
+
+.joe-who-codes a {
+    color:black;
+}
+
+.joe-who-codes a:hover {
+    color:#a6ddff
+}
