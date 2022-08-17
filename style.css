@@ -118,6 +118,20 @@ a {
     background-size: cover;
 }
 
+.what-we-do .body-painting {
+    margin: 5px 0px;
+    background-image: url(/images/background-tiles/bg-7.png);
+    width: 50%;
+}
+
+.what-we-do .body-painting:hover {
+    background-image: url(/images/background-tiles/bg-7b.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .what-we-do .show-all {
     background-image: url(/images/background-tiles/bg-6.png);
     width: 50%;
